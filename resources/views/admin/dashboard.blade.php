@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.admin')
 
 @section('content')
 <div class="container">
@@ -20,6 +20,7 @@
                     {{ __('You are logged in!') }}
                 </div>
             </div>
+            <h2 class="h-100 d-flex justify-content-center align-items-center">Here you can manage your projects</h2>
         </div>
     </div>
 </div>
