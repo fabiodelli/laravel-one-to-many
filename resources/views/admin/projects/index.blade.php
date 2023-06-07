@@ -37,7 +37,7 @@
                 <td>{{$project->completed}}</td>
 
                 <td>
-                    <a name="" id="" class="btn btn-primary" href="{{route('admin.projects.show','$projects')}}" role="button">view</a>
+                    <a name="" id="" class="btn btn-primary" href="{{route('admin.projects.show', $project->slug)}}" role="button">view</a>
                     VIEW/EDIT/DELETE
 
                 </td>
