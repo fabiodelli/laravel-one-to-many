@@ -23,6 +23,16 @@
     </div>
 
     <div class="mb-3">
+        <label for="type" class="form-label">Type</label>
+        <select class="form-select form-select-lg" name="type" id="type">
+            <option selected>Select one</option>
+            <option value="">New Delhi</option>
+            <option value="">Istanbul</option>
+            <option value="">Jakarta</option>
+        </select>
+    </div>
+
+    <div class="mb-3">
         <label for="content" class="form-label">Content</label>
         <textarea class="form-control @error('content') is-invalid @enderror" name="content" id="content" rows="3"></textarea>
     </div>
